@@ -1,0 +1,49 @@
+@media only screen and (max-width: 768px){
+    .nav-lis{
+        display: none;
+    }
+    .hero-right img{
+        display: none;
+        
+     }
+     .about-grid{
+        padding: 5rem 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+    .about-u {
+        display: flex;
+        flex-direction: column;
+      }
+
+    .about-us img{
+        width: 100%;
+    }
+    .service-img  {
+        display: none;
+        
+      }
+
+    
+.service-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .offers-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+}
+
